@@ -2,7 +2,7 @@ const BACKEND_URL = getBackendURL();
 
 function getBackendURL() {
   if (window.location.hostname.indexOf("localhost") !== -1) {
-    return "http://localhost:4000/";
+    return "https://micromoments.onrender.com/";
   } else {
     return ""; // TODO: Add Heroku app URL
   }
